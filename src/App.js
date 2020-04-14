@@ -1,9 +1,17 @@
 import React from 'react';
+import Header from './components/Header';
+import Main from './pages/Main';
+import './grelha.css';
+import './style.css';
 
-function App() {
-  return (
-  <h1>Near Earth</h1>
-  );
+
+const App = () => {
+  return(
+    <>
+    <Header />
+    <Main />
+    </>
+  )
+
 }
-
 export default App;
